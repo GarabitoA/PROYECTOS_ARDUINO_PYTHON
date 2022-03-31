@@ -62,7 +62,7 @@ if a == 1:
 
 """
 
-#AL PRESIONAR TECLA A y Y de la computadora que se enciendan los leds de manera indefinida intermitentementeayayay
+#AL PRESIONAR TECLA A y Y de la computadora que se enciendan los leds de manera indefinida intermitentemente
 while True:
     if keyboard.is_pressed("a") and keyboard.is_pressed("y"):
         while 1:
@@ -72,8 +72,6 @@ while True:
             placa.digital[8].write(1)
             time.sleep(1)
             placa.digital[8].write(0)
-
-
 
 # CREACION DE BOTONES QUE ENVIARAN SEÑAL A ARDUINO Y ENCENDERAN UN LED DURANTE 10 Seg
 #CREANDO INTERFAZ
